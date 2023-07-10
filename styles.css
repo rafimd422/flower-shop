@@ -20,18 +20,18 @@ header {
     align-items: center;
     flex-wrap: wrap;
     padding-top: 50px;
-    gap: 2rem;
+    gap: 1.8rem;
 }
 
 header .desc h1 {
     color: #272727;
-font-size: 80px;
+font-size: 75px;
 font-weight: 800;
 }
 header .desc p {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     padding: 1rem 0;
@@ -150,3 +150,46 @@ line-height: 35px;
 }
 
 /* added our facilities */
+
+.offer {
+width: 100vw;
+height: 600px;
+display: flex;
+justify-content: center;
+gap: 2rem;
+align-items: center;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+flex-wrap: wrap;
+margin-bottom: 50px;
+}
+.offerDescrtiption {
+text-align: center;
+width: 594px;
+}
+.offerDescrtiption h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.offerDescrtiption p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 1rem 0;
+}
+.offerDescrtiption button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 18px 36px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    cursor: pointer;
+}
+
+/* offer section done */
