@@ -20,7 +20,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     padding-top: 50px;
-    gap: 4rem;
+    gap: 2rem;
 }
 
 header .desc h1 {
@@ -49,3 +49,83 @@ cursor: pointer;
 }
 
 /* header section complate */
+
+.featuredFlower {
+width: 100vw;
+height: fit-content;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-bottom: 100px;
+}
+
+.flowerDesc {
+text-align: center;
+padding-top: 90px;
+}
+.flowerDesc h3 {
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+padding: 1rem;
+}
+.flowerDesc p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 0.9rem;
+}
+.flowerImg{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+gap: 1rem;
+flex-wrap: wrap;
+margin-bottom: 3.8rem;
+}
+.imgRedius1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 0 75px;
+    padding-top: 102px;
+    box-sizing: border-box;
+    width: 450px;
+height: 530px;
+text-align: center;
+}
+
+.imgRedius2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 110px 45px;
+    box-sizing: border-box;
+    width: 450px;
+height: 530px;
+text-align: center;
+}
+.imgRedius3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 0 70px;
+    padding-top: 60px;
+   
+    box-sizing: border-box;
+    width: 450px;
+    height: 530px;
+    text-align: center;
+}
+.middleImg {
+    padding-top: 52px;
+}
+.flowerImg p {
+    color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+margin-top: 20px;
+}
+/* featured flowers section complate */
