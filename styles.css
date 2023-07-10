@@ -230,3 +230,58 @@ width: 594px;
     box-shadow: rgba(136, 130, 130, 0.1) 0px 4px 10px;
 }
 /* instagram section complate */
+
+.anotherOffer {
+    width: 100vw;
+}
+.mainSection {
+    width: 76%;
+height: 450px;
+margin: 120px auto;
+background-image: url(./Assets/Rectangle-9.png);
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.mainSection h3 {
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.mainSection p {
+margin: 1rem 0;
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.mainSection input {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    height: 64px;
+    width: 700px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    padding-left: 8px;
+}
+.mainSection button {
+padding: 18px;
+font-size: 20px;
+font-weight: 700;
+color: #FFF;
+cursor: pointer;
+border-radius: 8px;
+background: #E55473;
+border: none;
+margin: 0 6px;
+margin-top: 4px;
+}
+/* Coupon offer section is added*/
+
